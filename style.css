@@ -1,0 +1,48 @@
+body {
+background-color: #232136;
+ 
+}
+
+h2{
+   font-weight: bold;
+  color: #e0def4;
+  font-size: 24px;
+}
+
+.body {
+  border: 2px solid #44415a;
+  margin: 40px;
+  background-color: #393552;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /*border-radius: 7px;*/
+}
+.container div {
+  width: 100%;
+  padding: 5px;
+  border: 3px solid #44415a;
+  color: white;
+  
+}
+a:link
+{
+    color:#eb6f92;
+}
+a:visited
+{
+    color: #ea9a97;
+    font-style: italic;
+}
+a:hover
+{
+    font-style: oblique;
+}
+p{
+    color: #e0def4;
+}
+    
