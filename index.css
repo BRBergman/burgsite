@@ -1,4 +1,5 @@
 html {
+  overflow:visible;
   font-family: century-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -31,7 +32,7 @@ h1 {
 }
 
 .main {
-  padding-top: 70px;
+  margin-top: 30px;
   padding-bottom: 70px;
   display: flex;
   justify-content: space-between;
@@ -62,5 +63,15 @@ a:visited {
   color: #1f4a5c;
 }
 a:hover {
+  text-decoration: underline;
+}
+
+.heading{
+  padding: 10px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 200%;
+  color: #212136;
   text-decoration: underline;
 }
