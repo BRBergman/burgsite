@@ -5,3 +5,8 @@ function SaulGoodmanBwawhAudio()
     SaulGoodmanBwawh.play();
 }
 
+function select_random_quote()
+{
+    let file = [test1,test2,test3];
+    let index = Math.round(Math.random()*file.length);
+}
