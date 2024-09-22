@@ -10,3 +10,6 @@ function select_random_quote()
     let index = Math.round(Math.random()*file.length);
     document.getElementById("qotd").innerHTML = file[index];
 }
+let file = [test1,test2,test3];
+let index = Math.round(Math.random()*file.length);
+document.getElementById("qotd").innerHTML = file[index];
