@@ -1,6 +1,3 @@
-const element = document.getElementById("qotd");
-element.innerHTML = "New Heading";
-
 var SaulGoodmanBwawh = new Audio('/indexassets/SaulGoodmanBwawh.mp3');
 function SaulGoodmanBwawhAudio()
 {
