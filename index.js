@@ -6,7 +6,8 @@ function SaulGoodmanBwawhAudio() {
 function select_random_quote() {
     let file = ["test1", "test2", "test3"];
     let index = Math.floor(Math.random() * file.length);
-    document.getElementById("qotd").textContent = file[index];
-    return file[index];
+    let quote = file[index];
+    document.getElementById("qotd").innerHTML = quote;
+    return quote;
 }
-select_random_quote();
+let x = select_random_quote();
