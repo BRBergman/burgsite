@@ -4,7 +4,7 @@ function SaulGoodmanBwawhAudio() {
     SaulGoodmanBwawh.play();
 }
 
-const file = ["bwaaa", "DO NOT THROW SOULS", "you're out of touch","haiii","let me super break you","stellemarch is t4t","amogus","HATSUNE FUCKIN MIKUUUU","It's Ikuyove", "It's Ryover"];
+const file = ["bwaaa", "DO NOT THROW SOULS", "You're out of touch", "haiii", "Let me super break you", "Stellemarch is t4t", "amogus", "HATSUNE FUCKIN MIKUUUU", "It's Ikuyover", "It's Ryover", "It's murder, the solution is murder"];
 //todo: make read from seperate file that i can change without updating the website
 function select_random_quote() {
     let index = Math.floor(Math.random() * file.length);
