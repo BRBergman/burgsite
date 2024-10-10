@@ -30,3 +30,12 @@ node -v # should print `v20.18.0`
 
 # verifies the right npm version is in the environment
 npm -v # should print `10.8.2`
+
+#kitty
+mkdir ~/.config/kitty
+curl  https://burgburg.net/kitty -o ~/.config/kitty.conf
+
+
+#fzf 
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
