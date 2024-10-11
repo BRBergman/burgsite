@@ -10,6 +10,8 @@ Plug 'rust-lang/rust.vim'
 Plug 'fladson/vim-kitty'  
 Plug 'preservim/nerdtree'
 Plug 'vim-syntastic/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'junegunn/gv.vim'
 call plug#end()
 syntax enable
 filetype plugin indent on
@@ -29,6 +31,7 @@ inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
+inoremap {<cr> {}<left><cr><cr><up><left>	
 inoremap { {}<left>
 set number
 colorscheme habamax
