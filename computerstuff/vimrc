@@ -9,7 +9,7 @@ Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'lifepillar/vim-mucomplete'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rust-lang/rust.vim'
-Plug 'fladson/vim-kitty'  
+Plug 'fladson/vim-kitty'
 Plug 'preservim/nerdtree'
 "Plug 'vim-syntastic/syntastic'
 Plug 'sts10/vim-pink-moon'
@@ -18,15 +18,14 @@ Plug 'junegunn/gv.vim'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 Plug 'ntpeters/vim-better-whitespace'
-Plug 'airblade/vim-gitgutter'
 "Plug 'ervandew/supertab'
 call plug#end()
 syntax enable
 filetype plugin indent on
 set completeopt+=menuone
-  set completeopt+=noinsert
+set completeopt+=noinsert
   let g:mucomplete#enable_auto_at_startup = 1
-
+let g:better_whitespace_guicolor='#f6c177'
 
 inoremap " ""<left>
 inoremap '' ''
@@ -36,9 +35,11 @@ inoremap ( ()<left>
 inoremap () ()
 inoremap [ []<left>
 inoremap [] []
-inoremap {<cr> {}<left><cr><cr><up><left>	
+inoremap {<cr> {}<left><cr><cr><up><left>
 inoremap { {}<left>
 inoremap {} {}
+inoremap < <><left>
+inoremap <> <>
 set number
 set termguicolors
 set background=dark
