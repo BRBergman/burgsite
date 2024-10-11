@@ -6,7 +6,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'mhinz/vim-startify'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
-Plug 'lifepillar/vim-mucomplete'
+"Plug 'lifepillar/vim-mucomplete'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rust-lang/rust.vim'
 Plug 'fladson/vim-kitty'
@@ -22,9 +22,6 @@ Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
 syntax enable
 filetype plugin indent on
-set completeopt+=menuone
-set completeopt+=noinsert
-  let g:mucomplete#enable_auto_at_startup = 1
 let g:better_whitespace_guicolor='#f6c177'
 
 inoremap " ""<left>
