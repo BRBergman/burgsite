@@ -42,6 +42,7 @@ set termguicolors
 set background=dark
 colorscheme catppuccin_macchiato	
 inoremap <expr> <tab> coc#pum#visible() ? coc#pum#confirm() : "\<TAB>"
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<cr>"
 " Start NERDTree and leave the cursor in it.
 autocmd VimEnter * NERDTree
 let g:minimap_width = 10
