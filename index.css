@@ -46,21 +46,21 @@ h1 {
   justify-content: space-between;
   border: 3px solid #44415a;
   padding: 6px;
-  background-color: #a76e7b/*#bbd8bb;*/
+  background-color: #cd8797/*#bbd8bb;*/
 }
 
 .inbetween {
   padding: 5px;
 }
 a{
-  text-shadow: 1px 1px 2px #3f2837;/*#617161;*/
+  text-shadow: 1px 1px 2px #020102;/*#617161;*/
 }
 a:link {
   color: #2b6882;
   text-decoration: none;
 }
 a:visited {
-  color: #3a738a;
+  color: #26bccf;
 }
 a:hover {
   text-decoration: underline;
