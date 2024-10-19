@@ -3,12 +3,13 @@ html {
   font-family: century-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 1px 1px 2px #617161;
+  text-shadow: 1px 1px 2px #6c5959;/*#617161;*/
+  color: #212136;
   scrollbar-width: none;
 }
 body {
-  background-image: url("/bkg2.png");
-  background-size: 160px;
+  background-image: url("/bkg_red_smol_goed.png");
+  background-size: 40px;
   image-rendering: pixelated;
 }
 body div {
@@ -16,18 +17,15 @@ body div {
 }
 p {
   padding-left: 8%;
-  color: #212136;
   margin-top: auto;
 }
 h3 {
   padding-left: 2%;
-  color: #212136;
   margin-bottom: auto;
   padding-bottom: 9px;
 }
 h1 {
   padding-left: 2%;
-  color: #212136;
   margin-bottom: auto;
 }
 
@@ -48,19 +46,21 @@ h1 {
   justify-content: space-between;
   border: 3px solid #44415a;
   padding: 6px;
-  background-color: #bbd8bb;
+  background-color: #a76e7b/*#bbd8bb;*/
 }
 
 .inbetween {
   padding: 5px;
 }
-
+a{
+  text-shadow: 1px 1px 2px #3f2837;/*#617161;*/
+}
 a:link {
   color: #2b6882;
   text-decoration: none;
 }
 a:visited {
-  color: #1f4a5c;
+  color: #3a738a;
 }
 a:hover {
   text-decoration: underline;
