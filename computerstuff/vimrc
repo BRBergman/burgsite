@@ -11,6 +11,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rust-lang/rust.vim'
 Plug 'fladson/vim-kitty'
 Plug 'preservim/nerdtree'
+Plug 'itchyny/lightline.vim'
 "Plug 'vim-syntastic/syntastic'
 Plug 'sts10/vim-pink-moon'
 Plug 'tpope/vim-fugitive'
@@ -19,7 +20,11 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 Plug 'ntpeters/vim-better-whitespace'
 "Plug 'ervandew/supertab'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
+
+
+
 syntax enable
 filetype plugin indent on
 let g:better_whitespace_guicolor='#f6c177'
@@ -40,7 +45,7 @@ inoremap <> <>
 set number
 set termguicolors
 set background=dark
-colorscheme catppuccin_macchiato	
+colorscheme catppuccin_macchiato
 inoremap <expr> <tab> coc#pum#visible() ? coc#pum#confirm() : "\<TAB>"
 inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<cr>"
 " Start NERDTree and leave the cursor in it.
