@@ -6,7 +6,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 #zshrc
-curl https://burgburg.net/computerstuff/zshrc -o .zshrc
+#curl https://burgburg.net/computerstuff/zshrc -o .zshrc
 
 #vimrc
 curl https://burgburg.net/computerstuff/vimrc -o .vimrc
