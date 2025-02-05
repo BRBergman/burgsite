@@ -13,7 +13,10 @@ var blog = [
 ].reverse()
 
 function fullpage_blog() {
-    let x = document.getElementById("blog")
+    let x = document.getElementById("blog_all")
+    if (x == null){
+        return
+    }
     blog.forEach(arg => {
         let single_blog = "<div class=\"innerboxes\"> <h1>"
             + arg[0] + "</h1><p>" +
@@ -24,3 +27,17 @@ function fullpage_blog() {
     temp.innerHTML = x
 }
 fullpage_blog()
+
+function recent_blog() {
+    let x = document.getElementById("blog_single")
+    if (x == null){
+        return
+    }
+    console.log("saas")
+    let first_blog = blog[0]
+    let single_blog = "<h3> Latest Blog: "
+            + first_blog[0] + "</h3><p>" +
+            first_blog[1] + "</p></div><div class=\"inbetweenboxes\"> "
+            x.innerHTML=single_blog
+}
+recent_blog()
