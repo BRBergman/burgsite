@@ -13,3 +13,11 @@ function select_random_quote() {
     return quote;
 }
 select_random_quote();
+function recent_blog() {
+    let x = document.getElementById("blog")
+    let single_blog = "<h3>"
+            + blog[0][0] + "</h3><p>" +
+            blog[0][1] + "</p></div><div class=\"inbetweenboxes\"> <br>"
+            x.innerHTML=single_blog
+}
+recent_blog()
