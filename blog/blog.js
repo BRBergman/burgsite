@@ -12,7 +12,25 @@ var blog = [
     ["2/4/2025", "im gonna stop trying to be oh so special and just use js for all of this..."]
 ].reverse();
 
-var json_blog = JSON.parse();
+
+function readarray(){
+    var json_blog = "";
+    let i = 0;
+    fetch("./bloglist.json")
+    .then((res) => res.text())
+    .then((text) => {
+        json_blog = JSON.stringify(text);
+        json_blog.forEach(element => {
+            i++;
+        });
+        json_blog = text
+   })
+  .catch((e) => console.error(e));
+    return json_blog+"hi";
+
+}
+
+
 function fullpage_blog() {
     let x = document.getElementById("blog_all");
     if (x == null) {
