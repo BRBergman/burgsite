@@ -3,7 +3,7 @@ var blog = [
     //add on to end
     ["10/4/24", " why is everything so weawerewasrw "],
     ["10/5/2024", " i can only do so much reading before the words start to mesh together, maybe i need glasses "],
-    ["10/29/2024", "*hacker voice* im in </br>(accepted to a collage) "],
+    ["10/29/2024", "*hacker voice* im in </br>(accepted to a college) "],
     ["10/31/2024", " halloween happened too fast i didn't have time to get a costume :( "],
     ["12/20/2024", "write it in rust"],
     ["12/20/2024", "i ended up getting glasses"],
@@ -52,7 +52,6 @@ function recent_blog() {
     if (x == null) {
         return;
     }
-    console.log("saas");
     let first_blog = blog[0];
     let single_blog = "<h3> Latest Blog: "
         + first_blog[0] + "</h3><p>" +
