@@ -6,10 +6,12 @@ function SaulGoodmanBwawhAudio() {
 
 const quotes = ["bwaaa",
     "DO NOT THROW SOULS",
-    "You're out of touch",
+    "You're out of touch~~",
     "haiii",
+    "eto",
     "Let me super break you",
     "Stellemarch is t4t",
+    "mikurin t4t",
     "amogus",
     "HATSUNE FUCKIN MIKUUUU",
     "It's Ikuyover",
@@ -21,6 +23,5 @@ function select_random_quote() {
     let index = Math.floor(Math.random() * quotes.length);
     let quote = quotes[index];
     document.getElementById("qotd").innerHTML = quote;
-    return quote;
 }
 select_random_quote();
