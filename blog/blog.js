@@ -39,7 +39,7 @@ function fullpage_blog() {
     blog.forEach(arg => {
         let single_blog = "<div class=\"innerboxes\"> <h1>"
             + arg[0] + "</h1><p>" +
-            arg[1] + "</p></div><div class=\"inbetweenboxes\"> <br></div>";
+            arg[1] + "</p>";
         x.innerHTML += single_blog;
     });
     let temp = document.createElement("div");
