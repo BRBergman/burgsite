@@ -17,7 +17,8 @@ const quotes = ["bwaaa",
     "It's Ikuyover",
     "It's Ryover",
     "It's murder, the solution is murder",
-    "When will you wear wigs?"];
+    "When will you wear wigs?",
+    "Why did you play Haruhikage?????!!!!!!"];
 //todo: make read from seperate file that i can change without updating the website
 function select_random_quote() {
     let index = Math.floor(Math.random() * quotes.length);
