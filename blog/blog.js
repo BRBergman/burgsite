@@ -9,7 +9,7 @@ var blog = [
     ["12/20/2024", "i ended up getting glasses"],
     ["1/6/2025", "bangs are peak"],
     ["1/6/2025", "take this shitass"],
-    ["2/4/2025", "im gonna stop trying to be oh so special and just use js for all of this..."]
+    ["2/4/2025", "im gonna stop trying to be oh so special and just use js for all of this..."],
     ["2/14/2025","hrt soon (irls this is for super cis reasons i promise, never would i ever try to hide anything from any of you)"],
     ["2/14/2025","valentines day is cool and all but have you tried koth_harvest"]
 ].reverse();
@@ -41,7 +41,7 @@ function fullpage_blog() {
     blog.forEach(arg => {
         let single_blog = "<div class=\"innerboxes\"> <h1>"
             + arg[0] + "</h1><p>" +
-            arg[1] + "</p>";
+            arg[1] + "</p></div>";
         x.innerHTML += single_blog;
     });
     let temp = document.createElement("div");
