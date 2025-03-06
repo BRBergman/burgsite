@@ -13,7 +13,8 @@ var blog = [
     ["2/14/2025","hrt soon (irls this is for super cis reasons i promise, never would i ever try to hide anything from any of you)"],
     ["2/14/2025","valentines day is cool and all but have you tried koth_harvest"],
     ["3/1/2025","im learning to play the guitar! (my hands hurt)"],
-    ["3/2/2025","<b>it's here</b>"]
+    ["3/2/2025","<b>it's here</b>"],
+    ["3/6/2025","6:18 PM EST</br>i took it"]
 ].reverse();
 
 
