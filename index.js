@@ -1,3 +1,4 @@
+// @ts-check
 const SaulGoodmanBwawh = new Audio('/indexassets/SaulGoodmanBwawh.mp3');
 function SaulGoodmanBwawhAudio() {
     SaulGoodmanBwawh.volume = 0.2;
@@ -23,6 +24,9 @@ const quotes = ["bwaaa",
 function select_random_quote() {
     let index = Math.floor(Math.random() * quotes.length);
     let quote = quotes[index];
-    document.getElementById("qotd").innerHTML = quote;
+    let element = document.getElementById("qotd");
+    if (element != null){
+        element.innerHTML = quote
+    }
 }
 select_random_quote();
