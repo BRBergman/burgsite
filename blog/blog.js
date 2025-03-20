@@ -24,7 +24,7 @@ function fullpage_blog() {
         return;
     }
     blog.forEach(arg => {
-        let single_blog = "<div class=\"innerboxes\"> <h1>"
+        let single_blog = "<div><h1>"
             + arg[0] + "</h1><p>" +
             arg[1] + "</p></div>";
         x.innerHTML += single_blog;
@@ -42,7 +42,7 @@ function recent_blog() {
     let first_blog = blog[0];
     let single_blog = "<h3> Latest Blog: "
         + first_blog[0] + "</h3><p>" +
-        first_blog[1] + "</p></div><div class=\"inbetweenboxes\"> ";
+        first_blog[1] + "</p>";
     x.innerHTML = single_blog;
 }
 recent_blog();

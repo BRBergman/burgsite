@@ -5,6 +5,7 @@
     <title>Burg's Room</title>
     <link rel="stylesheet" href="/index.css">
     <link rel="icon" href="favicon.png">
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <h1 class="heading">burgburg.net</h1>
     <div class="main">
         <div class="outerboxes">
-            <div class="innerboxes">
+            <div>
                 <h1>Burg's Room</h1><img src="/indexassets/the_hazel_for_index.png"
                     style="width: 21%; float: left; border: 3px solid #44415a; background-color: #e0b8bb; margin-right: 6px; margin-left: 19px;">
                 <p style="align-items: center; display: inline"><br>Welcome to my room! my personal website &amp; blog
@@ -58,21 +59,21 @@
             <div>
                 <marquee behavior="scroll" direction="left"><span>ALL are welcome. Enjoy Your Stay!</span></marquee>
             </div>
-            <div class="innerboxes">
+            <div>
                 <h3>Projects:</h3>
                 <p>giving in and just learning js</p>
             </div>
-            <div class="innerboxes" id="blog_single">
+            <div id="blog_single">
                 loading....
             </div>
-            <div class="innerboxes">
+            <div>
                 <h3>QOTR (quote of the <a style="text-shadow: unset; user-select:none;"
                         onclick="select_random_quote();">refresh</a>): </h3>
                 <p id="qotd"></p>
             </div>
         </div>
         <div class="outerboxes" style="width: 25%">
-            <div class="innerboxes">
+            <div>
                 <h3>Links:</h3>
                 <!--...
                 <p><a href="https://twitter.com/_burgburg_" target="_blank">Twitter</a></p>
@@ -81,41 +82,36 @@
                 <p><a href="https://github.com/BRBergman" target="_blank">Github</a></p>
                 <!-- <p><a href="https://throne.com/burgburg" target="_blank">Throne</a></p>-->
             </div>
-            <div class="innerboxes">
-                <h3>Oomfies:</h3>
-                <p><a href="https://natgeo.nekoweb.org/" target="_blank"><img src="/friends/natgeo.png"
-                            style="  image-rendering: pixelated;" alt="natgeo"></a></p>
-                <p><a href="https://swiftersweeper.nekoweb.org/" target="_blank"><img src="/friends/swift.png"
-                            style=" image-rendering: pixelated;" alt="swift"></a></p>
-                <p><a href="https://shionin.nekoweb.org/" target="_blank"> shionin</a></p>
+            <div hx-get="/friends/friends.html" hx-trigger="load">
+                loading friends...
             </div>
-            <div class="innerboxes">
+            <div>
                 <h3>Pages:</h3>
                 <p><a href="/blog">The Burgblog</a></p>
                 <p><a href="/BlahajGallery">The Blahaj Gallery</a></p>
             </div>
-            <div class="innerboxes">
-                <div style="text-align: center; image-rendering: pixelated; object-fit: fill ;"><img
+            <div>
+                <span style="text-align: center; image-rendering: pixelated; object-fit: fill ;"><img
                         style="width: initial;"
                         src="https://mypillowfort.nekoweb.org/media5/tumblr_ace137e4afe10e9090c839f452444524_b175a197_75.gif"><img
                         style="width: initial;"
                         src="https://mypillowfort.nekoweb.org/media5/tumblr_75f0b86c777ae5383ec55e4aaab64603_f6b25393_75.gif"><img
                         style="width: initial;"
                         src="https://mypillowfort.nekoweb.org/media5/tumblr_9d8e9f7bea9bc75fa560df7e001c9f41_1f93276b_75.gif">
-                </div>
+                </span>
             </div>
-            <div class="innerboxes"><img src="/indexassets/Lain.jpg">
+            <div><img src="/indexassets/Lain.jpg">
                 <marquee behavior="scroll" direction="left">Lets All Love Lain.</marquee>
             </div>
-            <div class="innerboxes">
+            <div>
                 <img src="/indexassets/utau.gif" alt="eto">
             </div>
-            <div class="innerboxes">
+            <div>
                 <p1 style="color: #bda4e5; text-shadow: 1px 1px 2px #44415a;">awawawawawaw</p1><img
                     src="/indexassets/luckyScream.jpg" style="image-rendering: smooth;">
-                <div style="text-align: right">
+                <span style="text-align: right">
                     <p1 style="color: #748fdc; text-shadow: 1px 1px 2px #52505f; ">ehe</p1>
-                </div>
+                </span>
             </div>
         </div>
     </div>
