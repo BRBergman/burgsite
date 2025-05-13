@@ -21,7 +21,9 @@ const quotes = ["bwaaa",
     "When will you wear wigs?",
     "Why did you play Haruhikage?????!!!!!!",
     "math is red, history is blue",
-    "soyo particles"];
+    "soyo particles",
+    "thats oomf",
+    "lil beepo"];
 //todo: make read from seperate file that i can change without updating the website
 function select_random_quote() {
     let index = Math.floor(Math.random() * quotes.length);
