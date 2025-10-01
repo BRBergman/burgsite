@@ -108,6 +108,7 @@
                 and am out as myself at uni!!</description>
             <pubDate>Wed, 1 Oct 2025 13:38:00 EST</pubDate>
         </item>
+        <atom:link href="http://dallas.example.com/rss.xml" rel="self" type="application/rss+xml" />
     </channel>
 
 </rss> 
