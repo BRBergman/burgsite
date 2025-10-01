@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
 
     <channel>
         <title>Burg RSS feed</title>
@@ -108,7 +108,6 @@
                 and am out as myself at uni!!</description>
             <pubDate>Wed, 1 Oct 2025 13:38:00 EST</pubDate>
         </item>
-        <atom:link href="http://dallas.example.com/rss.xml" rel="self" type="application/rss+xml" />
     </channel>
 
 </rss> 
