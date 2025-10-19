@@ -1,0 +1,20 @@
+{
+    "webringSites": [
+        {
+            "siteOwner": "Burg",
+            "siteName": "Burg's Room",
+            "siteURL": "https://burgburg.net",
+            "siteTags": "Burg",
+            "siteShortDescription": "111",
+            "siteLongDescription": "1111111"
+        },
+        {
+            "siteOwner": "Swift",
+            "siteName": "Swift's Star Bits",
+            "siteURL": "https://swiftersweeper.nekoweb.org/",
+            "siteTags": "Swift",
+            "siteShortDescription": "222",
+            "siteLongDescription": "2222222"
+        }
+    ]
+}

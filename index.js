@@ -24,13 +24,14 @@ const quotes = ["bwaaa",
     "soyo particles",
     "thats oomf",
     "lil beepo",
-    "croomf"];
+    "croomf",
+    "nyom"];
 //todo: make read from seperate file that i can change without updating the website
 function select_random_quote() {
     let index = Math.floor(Math.random() * quotes.length);
     let quote = quotes[index];
     let element = document.getElementById("qotd");
-    if (element != null){
+    if (element != null) {
         element.innerHTML = quote
     }
 }

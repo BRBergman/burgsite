@@ -10,11 +10,12 @@ var blog = [
     ["1/6/2025", "bangs are peak"],
     ["1/6/2025", "take this shitass"],
     ["2/4/2025", "im gonna stop trying to be oh so special and just use js for all of this..."],
-    //["2/14/2025","hrt soon (irls this is for super cis reasons i promise, never would i ever try to hide anything from any of you)"],
-    ["2/14/2025","valentines day is cool and all but have you tried koth_harvest"],
-    ["3/1/2025","im learning to play the guitar! (my hands hurt)"],
-    ["3/2/2025","<b>it's here</b>"]
-    //["3/6/2025","6:18 PM EST</br>i took it"]
+    ["2/14/2025", "hrt soon (irls this is for super cis reasons i promise, never would i ever try to hide anything from any of you)"],
+    ["2/14/2025", "valentines day is cool and all but have you tried koth_harvest"],
+    ["3/1/2025", "im learning to play the guitar! (my hands hurt)"],
+    ["3/2/2025", "<b>it's here</b>"],
+    ["3/6/2025", "6:18 PM EST</br>i took it"],
+    ["10/19/2025", "It's been a minute but im back to my site"]
 ].reverse();
 
 

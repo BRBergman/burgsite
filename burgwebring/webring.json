@@ -1,0 +1,9 @@
+{
+    "webringInfo": [
+        {
+            "webringName": "BurgRing",
+            "webringHome": "https://burgburg.net",
+            "webringMemberList": "https://burgburg.net/sites.json"
+        }
+    ]
+}
