@@ -25,7 +25,8 @@ const quotes = ["bwaaa",
     "thats oomf",
     "lil beepo",
     "croomf",
-    "nyom"];
+    "nyom",
+    "You. Me. Gas Station"];
 //todo: make read from seperate file that i can change without updating the website
 function select_random_quote() {
     let index = Math.floor(Math.random() * quotes.length);
