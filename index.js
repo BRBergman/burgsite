@@ -38,3 +38,18 @@ function select_random_quote() {
     }
 }
 select_random_quote();
+
+function copybuttontext() {
+    setClipboard("<a href=\"https://burgburg.net/\"><img src=\"https://burgburg.net/burgbutton.png\"alt = \"burgburg.net\" ></a >")
+}
+/**
+ * @param {any} text
+ */
+async function setClipboard(text) {
+    const type = "text/plain";
+    const clipboardItemData = {
+        [type]: text,
+    };
+    const clipboardItem = new ClipboardItem(clipboardItemData);
+    await navigator.clipboard.write([clipboardItem]);
+}

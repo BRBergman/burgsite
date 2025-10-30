@@ -108,3 +108,17 @@ ul {
   padding-top: 0%;
   margin-top: 0%;
 }
+
+button {
+  color: #2d94c0;
+  width: 100%;
+  border: 3px solid #44415a;
+  background-color: #e0b8bb;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #b89396;
+}
