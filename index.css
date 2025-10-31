@@ -3,7 +3,7 @@ html {
   font-family: century-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-shadow: 1px 1px 2px #6c5959;
+  text-shadow: 1px 1px 2px #6c595964;
   /*#617161;*/
   color: #212136;
   scrollbar-width: none;
@@ -117,6 +117,10 @@ button {
   font: inherit;
   color: inherit;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #d6aeb2;
 }
 
 button:active {
