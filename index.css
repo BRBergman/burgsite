@@ -7,6 +7,7 @@ html {
   /*#617161;*/
   color: #212136;
   scrollbar-width: none;
+
 }
 
 body {
@@ -41,8 +42,8 @@ h1 {
   padding-bottom: 70px;
   display: flex;
   justify-content: space-between;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 22%;
+  padding-right: 22%;
 }
 
 .outerboxes {
@@ -61,6 +62,7 @@ h1 {
   /*#bbd8bb;*/
   margin-bottom: 10px;
   margin-top: 10px;
+  border-radius: 7px;
 }
 
 a {
