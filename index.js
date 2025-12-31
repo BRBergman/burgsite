@@ -26,6 +26,8 @@ const quotes = ["bwaaa",
     "lil beepo",
     "croomf",
     "nyom",
+    "Fish!",
+    "muri muri",
     "You. Me. Gas Station",
     "Miku Miku BEEEEAAAM"];
 //todo: make read from seperate file that i can change without updating the website
