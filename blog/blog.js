@@ -17,7 +17,8 @@ var blog = [
     ["3/6/2025", "6:18 PM EST</br>i took it"],
     ["10/19/2025", "It's been a minute but im back to my site"],
     ["12/5/2025", "My first Estrogen Injection!! no more shitty pills."],
-    ["12/6/2025", "Starting Spiro to go with my shots"]
+    ["12/6/2025", "Starting Spiro to go with my shots"],
+    ["1/12/2026", "First day of spring semester. Wish me luck!"]
 ].reverse();
 
 
