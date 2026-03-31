@@ -1,130 +1,173 @@
 html {
-  overflow: visible;
-  font-family: century-gothic, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-shadow: 1px 1px 2px #6c595964;
-  /*#617161;*/
-  color: #212136;
-  scrollbar-width: none;
-
+    overflow: visible;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 2px #6c595964;
+    /*#617161;*/
+    color: #212136;
+    scrollbar-width: none;
 }
 
 body {
-  background-image: url("/bkg_red_smol_goed.png");
-  background-size: 2%;
-  image-rendering: pixelated;
+    background-image: url("/bkg_red_smol_goed.png");
+    background-size: 2%;
+    image-rendering: pixelated;
 }
 
 body div {
-  image-rendering: auto;
+    image-rendering: auto;
 }
 
 p {
-  padding-left: 8%;
-  padding-right: 8%;
-  margin-top: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: auto;
 }
 
 h3 {
-  padding-left: 2%;
-  margin-bottom: auto;
-  padding-bottom: 9px;
+    padding-left: 2%;
+    margin-bottom: auto;
+    padding-bottom: 9px;
 }
 
 h1 {
-  padding-left: 2%;
-  margin-bottom: auto;
+    padding-left: 2%;
+    margin-bottom: auto;
 }
 
 .main {
-  margin-top: 30px;
-  padding-bottom: 70px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 22%;
-  padding-right: 22%;
+    margin-top: 30px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22%;
+    padding-right: 22%;
 }
 
 .outerboxes {
-  width: 100%;
-  padding: 5px;
-  padding-top: 2px;
+    width: 100%;
+    padding: 5px;
+    padding-top: 2px;
 }
 
 /* in between boxes*/
 .outerboxes div {
-  box-shadow: 0px 0px 2px 2px rgba(105, 59, 59, 0.699);
-  justify-content: space-between;
-  border: 3px solid #44415a;
-  padding: 6px;
-  background-color: #ce9191;
-  /*#bbd8bb;*/
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border-radius: 7px;
+    box-shadow: 0px 0px 2px 2px rgba(105, 59, 59, 0.699);
+    justify-content: space-between;
+    border: 3px solid #44415a;
+    padding: 6px;
+    background-color: #ce9191;
+    /*#bbd8bb;*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
 }
 
 a {
-  text-shadow: 1px 1px 2px #020102;
-  /*#617161;*/
+    text-shadow: 1px 1px 2px #020102;
+    /*#617161;*/
 }
 
 a:link {
-  color: #26bccf;
-  text-decoration: none;
+    color: #26bccf;
+    text-decoration: none;
 }
 
 a:visited {
-  color: #2d94c0;
+    color: #2d94c0;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .heading {
-  padding: 10px;
-  margin-top: 35px;
-  margin-bottom: 0px;
-  text-align: center;
-  font-size: 200%;
-  color: #212136;
-  text-decoration: underline;
+    padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 200%;
+    color: #212136;
+    text-decoration: underline;
 }
 
 .month {
-  margin: 0px;
+    margin: 0px;
 }
 
 img {
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 ul {
-  list-style-type: none;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 0%;
-  margin-top: 0%;
+    list-style-type: none;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
 button {
-  color: #2d94c0;
-  width: 100%;
-  border: 3px solid #44415a;
-  background-color: #e0b8bb;
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
+    color: #2d94c0;
+    width: 100%;
+    border: 3px solid #44415a;
+    background-color: #e0b8bb;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #d6aeb2;
+    background-color: #d6aeb2;
 }
 
 button:active {
-  background-color: #b89396;
+    background-color: #b89396;
+}
+
+.img-hor-vert {
+    -webkit-transform: scale(-1, -1);
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+.img-hor {
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+li {
+    margin-bottom: 2px;
+}
+.linklist li {
+    margin-bottom: 10px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* Add dots under the hoverable text */
+    cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltiptext {
+    box-shadow: 0px 0px 2px 2px rgba(105, 59, 59, 0.699);
+    visibility: hidden; /* Hidden by default */
+    width: 130px;
+    border: 3px solid #44415a;
+    background-color: #ce9999;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 1; /* Ensure tooltip is displayed above content */
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
