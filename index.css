@@ -171,3 +171,6 @@ li {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+ul h3 {
+    margin-top: 0px;
+}
